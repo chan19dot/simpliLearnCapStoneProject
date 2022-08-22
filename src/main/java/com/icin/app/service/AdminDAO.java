@@ -8,10 +8,11 @@ import com.icin.app.model.Admin;
 @Service
 public class AdminDAO{
 	
-	@Autowired
-	AdminRepository adminRepository;
+//	@Autowired
+//	AdminRepository adminRepository;
 	
 	public Admin findByUserName(String name) {
+//		adminRepository.findAdminByUsername(name);
 		return null;
 	}
 
